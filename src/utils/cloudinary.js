@@ -11,7 +11,9 @@ import fs from 'fs';
         api_secret: process.env.CLOUDINARY_API_SECRET // Click 'View API Keys' above to copy your API secret
     });
 
-})();
+})
+// ();
+
 
 const uploadOnCloudinary = async (localFilePath) => {
     try {
